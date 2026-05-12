@@ -11,8 +11,8 @@ import org.testng.annotations.DataProvider;
         dryRun = !true,
         snippets = SnippetType.CAMELCASE,
         monochrome = true,//to remove junk characters from the console
-        glue = {"StepDefinitions","Hooks"}
-//        plugin =  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+        glue = {"StepDefinitions","Hooks"},
+        plugin =  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 //        plugin = {"pretty","html:CucumberReports",
 //                    "json:reports/result.json",
 //                    "junit:reports/result.xml"}
