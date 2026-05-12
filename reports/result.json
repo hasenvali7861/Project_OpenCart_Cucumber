@@ -1,0 +1,249 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 801023100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginSteps.userClicksOnLoginButton()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3097130700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login should be Successful",
+        "description": "",
+        "id": "my-demo-opencart-application-login-page;login-should-be-successful",
+        "after": [
+          {
+            "result": {
+              "duration": 278595300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 156190700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username as \"abc123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123@gmail.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.userEntersUsernameAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95863100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters password as \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.userEntersPasswordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109872500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on login option",
+            "match": {
+              "location": "LoginSteps.userClicksOnLoginOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2409948300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Login should be successful",
+            "match": {
+              "location": "LoginSteps.loginShouldBeSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 455542500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginSteps.userClicksOnLoginButton()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2294678100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login should not be Successful",
+        "description": "",
+        "id": "my-demo-opencart-application-login-page;login-should-not-be-successful",
+        "after": [
+          {
+            "result": {
+              "duration": 253497600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139375800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters username as \"incorrect@demo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"incorrect@demo.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.userEntersUsernameAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125106800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters password as \"incorrectPass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"incorrectPass\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.userEntersPasswordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 416504800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginSteps.userClicksOnLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 288600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Login should not be successful",
+            "match": {
+              "location": "LoginSteps.loginShouldNotBeSuccessful()"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          }
+        ]
+      }
+    ],
+    "name": "My Demo Opencart Application Login page",
+    "description": "",
+    "id": "my-demo-opencart-application-login-page",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\Features\\login.feature",
+    "tags": []
+  }
+]

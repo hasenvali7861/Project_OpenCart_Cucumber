@@ -10,3 +10,4 @@ Feature: Demo Registration page
     And Check on Privacy policy
     And Click on continue button
     Then Registration done successfully
+

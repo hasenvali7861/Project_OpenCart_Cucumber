@@ -1,9 +1,6 @@
 Feature: My Demo Opencart Application Login page
-
   Background:
-
     Given User clicks on login button
-
 @test
   Scenario: Login should be Successful
     And User enters username as "abc123@gmail.com"

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="10.635884">
+    <testcase classname="My Demo Opencart Application Login page" name="Login should be Successful" time="6.950694">
+        <system-out><![CDATA[Given User clicks on login button...........................................passed
+And User enters username as "abc123@gmail.com"..............................passed
+And User enters password as "test@123"......................................passed
+When User clicks on login option............................................passed
+Then Login should be successful.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="My Demo Opencart Application Login page" name="Login should not be Successful" time="3.68519">
+        <system-out><![CDATA[Given User clicks on login button...........................................passed
+And User enters username as "incorrect@demo.com"............................passed
+And User enters password as "incorrectPass".................................passed
+When User clicks on login button............................................passed
+But Login should not be successful..........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

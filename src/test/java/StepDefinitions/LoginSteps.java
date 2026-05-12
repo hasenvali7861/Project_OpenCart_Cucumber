@@ -4,14 +4,18 @@ import Hooks.DriverInstance;
 import Hooks.MyHooks;
 import cucumber.api.java.en.*;
 import org.openqa.selenium.By;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 
 
 public class LoginSteps {
 
+
     HomePage hp = new HomePage(MyHooks.driver);
     LoginPage lp = new LoginPage(MyHooks.driver);
+
+
 
     @Given("User clicks on login button")
     public void userClicksOnLoginButton() {
@@ -40,8 +44,7 @@ public class LoginSteps {
         String text=lp.verifyLogin();
         System.out.println("Logged in with : "+text);
     }
-
-
+    
     @But("Login should not be successful")
     public void loginShouldNotBeSuccessful() {
         System.out.println("Login Failed ... ");
